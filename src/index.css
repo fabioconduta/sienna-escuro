@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-sienna-50: #FDFBF7;
+    --color-sienna-100: #FAF8F5;
+    --color-sienna-200: #F3EFEA;
+    --color-sienna-300: #E8E3D9;
+    --color-sienna-400: #E3E7E0;
+    --color-sienna-500: #D9C5B2;
+    --color-sienna-600: #C28F7A;
+    --color-sienna-700: #8C7362;
+    --color-sienna-800: #5A473D;
+    --color-sienna-900: #3A2E27;
+    --color-sienna-950: #241C18;
+
+    --font-serif: "Playfair Display", serif;
+    --font-sans: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: var(--color-sienna-950);
+    color: var(--color-sienna-100);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+}
+
+/* Image filter for a warmer, editorial look */
+.img-editorial {
+    filter: sepia(0.2) contrast(0.95) brightness(0.95) grayscale(0.15);
+    object-fit: cover;
+}
