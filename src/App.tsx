@@ -10,7 +10,7 @@ export default function App() {
         <div className="hidden md:flex space-x-12 text-sm tracking-widest uppercase text-sienna-100/70">
           <a href="#about" className="hover:text-sienna-50 transition-colors">Sobre</a>
           <a href="#services" className="hover:text-sienna-50 transition-colors">Especialidades</a>
-          <a href="#method" className="hover:text-sienna-50 transition-colors">M\u00e9todo</a>
+          <a href="#method" className="hover:text-sienna-50 transition-colors">Método</a>
         </div>
         <button className="hidden md:block px-6 py-2.5 bg-transparent border border-sienna-100/20 rounded-full text-sm tracking-wider text-sienna-50 hover:bg-sienna-100 hover:text-sienna-950 transition-all duration-300">
           Agendar Consulta
@@ -31,11 +31,11 @@ export default function App() {
             </span>
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-sienna-50">
               Refinamento <br />
-              <span className="italic font-light text-sienna-300">contempor\u00e2neo</span> <br />
-              para sua ess\u00eancia.
+              <span className="italic font-light text-sienna-300">contemporâneo</span> <br />
+              para sua essência.
             </h1>
             <p className="text-lg text-sienna-100/70 mb-10 font-light leading-relaxed max-w-md">
-              Um espa\u00e7o dedicado ao cuidado aut\u00eantico, onde a sofistica\u00e7\u00e3o encontra o acolhimento para revelar a sua melhor vers\u00e3o.
+              Um espaço dedicado ao cuidado autêntico, onde a sofisticação encontra o acolhimento para revelar a sua melhor versão.
             </p>
             <div className="w-full flex justify-center md:justify-start">
               <button className="group flex items-center space-x-4 bg-sienna-100 text-sienna-950 px-8 py-4 rounded-full hover:bg-sienna-200 transition-all duration-300">
@@ -115,13 +115,13 @@ export default function App() {
             </h2>
             <div className="space-y-6 text-sienna-100/70 font-light leading-relaxed">
               <p>
-                Acredito que a verdadeira beleza nasce do equil\u00edbrio e do cuidado intencional. Minha jornada come\u00e7ou com o desejo de criar um espa\u00e7o onde cada mulher pudesse se reconectar com sua pr\u00f3pria ess\u00eancia.
+                Acredito que a verdadeira beleza nasce do equilíbrio e do cuidado intencional. Minha jornada começou com o desejo de criar um espaço onde cada mulher pudesse se reconectar com sua própria essência.
               </p>
               <p>
-                Com mais de uma d\u00e9cada de experi\u00eancia, desenvolvi uma abordagem que une t\u00e9cnicas avan\u00e7adas a um olhar profundamente humano e acolhedor.
+                Com mais de uma década de experiência, desenvolvi uma abordagem que une técnicas avançadas a um olhar profundamente humano e acolhedor.
               </p>
               <p>
-                Meu prop\u00f3sito \u00e9 guiar voc\u00ea em um processo de transforma\u00e7\u00e3o que respeita sua individualidade e real\u00e7a o que voc\u00ea tem de mais aut\u00eantico.
+                Meu propósito é guiar você em um processo de transformação que respeita sua individualidade e realça o que você tem de mais autêntico.
               </p>
             </div>
             <div className="mt-12">
@@ -145,18 +145,18 @@ export default function App() {
         <div className="grid md:grid-cols-3 gap-12 md:gap-8">
           {[
             {
-              title: "Est\u00e9tica Avan\u00e7ada",
-              desc: "Protocolos faciais e corporais personalizados para real\u00e7ar sua beleza natural com resultados elegantes e duradouros.",
+              title: "Estética Avançada",
+              desc: "Protocolos faciais e corporais personalizados para realçar sua beleza natural com resultados elegantes e duradouros.",
               img: "https://i.postimg.cc/s20QF1Pr/SECAO-3-1.png"
             },
             {
               title: "Terapias de Bem-estar",
-              desc: "Momentos de pausa e reconex\u00e3o atrav\u00e9s de massagens e rituais que equilibram corpo, mente e esp\u00edrito.",
+              desc: "Momentos de pausa e reconexão através de massagens e rituais que equilibram corpo, mente e espírito.",
               img: "https://i.postimg.cc/4d6g6Sxd/SECAO-3-2.png"
             },
             {
               title: "Mentoria Pessoal",
-              desc: "Acompanhamento pr\u00f3ximo para desenvolvimento pessoal, posicionamento e constru\u00e7\u00e3o de uma rotina com prop\u00f3sito.",
+              desc: "Acompanhamento próximo para desenvolvimento pessoal, posicionamento e construção de uma rotina com propósito.",
               img: "https://i.postimg.cc/05Zg9mMv/SECAO-3-3.png"
             }
           ].map((service, index) => (
@@ -194,10 +194,10 @@ export default function App() {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <Quote size={48} className="mx-auto text-sienna-100/10 mb-8" />
           <h2 className="font-serif text-3xl md:text-5xl leading-tight text-sienna-50 mb-10">
-            "O verdadeiro luxo \u00e9 ter tempo para si mesma. Meu m\u00e9todo n\u00e3o busca a perfei\u00e7\u00e3o, mas sim a <span className="italic text-sienna-300">harmonia absoluta</span> entre como voc\u00ea se sente e como voc\u00ea se apresenta ao mundo."
+            "‘O verdadeiro luxo é ter tempo para si mesma. Meu método não busca a perfeição, mas sim a <span className="italic text-sienna-300">harmonia absoluta</span> entre como você se sente e como você se apresenta ao mundo."’
           </h2>
           <p className="tracking-[0.2em] uppercase text-xs text-sienna-400 font-medium">
-            O M\u00e9todo Sienna
+            O Método Sienna
           </p>
         </div>
       </section>
@@ -212,18 +212,18 @@ export default function App() {
             transition={{ duration: 1 }}
           >
             <h2 className="font-serif text-4xl md:text-5xl mb-12 text-sienna-50">
-              Hist\u00f3rias de <br />
-              <span className="italic text-sienna-300">transforma\u00e7\u00e3o</span>
+              Histórias de <br />
+              <span className="italic text-sienna-300">transformação</span>
             </h2>
             <div className="space-y-12">
               {[
                 {
-                  text: "Encontrar a Sienna foi um divisor de \u00e1guas. O ambiente \u00e9 um ref\u00fagio e o cuidado \u00e9 t\u00e3o personalizado que me senti \u00fanica desde o primeiro momento.",
+                  text: "Encontrar a Sienna foi um divisor de águas. O ambiente é um refúgio e o cuidado é tão personalizado que me senti única desde o primeiro momento.",
                   author: "Mariana Costa",
-                  role: "Empres\u00e1ria"
+                  role: "Empresária"
                 },
                 {
-                  text: "Mais do que est\u00e9tica, encontrei acolhimento. O m\u00e9todo respeita meus tra\u00e7os e real\u00e7a o que eu j\u00e1 tenho de melhor. \u00c9 um investimento em mim mesma.",
+                  text: "Mais do que estética, encontrei acolhimento. O método respeita meus traços e realça o que eu já tenho de melhor. É um investimento em mim mesma.",
                   author: "Helena Ribeiro",
                   role: "Arquiteta"
                 }
@@ -266,7 +266,7 @@ export default function App() {
             Pronta para iniciar sua jornada?
           </h2>
           <p className="text-lg text-sienna-100/70 mb-12 font-light leading-relaxed">
-            Agende uma avalia\u00e7\u00e3o e descubra um plano de cuidado desenhado exclusivamente para as suas necessidades.
+            Agende uma avaliação e descubra um plano de cuidado desenhado exclusivamente para as suas necessidades.
           </p>
           <button className="bg-sienna-100 text-sienna-950 px-10 py-5 rounded-full hover:bg-sienna-200 transition-all duration-300 text-sm tracking-widest uppercase font-medium shadow-xl shadow-black/10">
             Agendar meu momento
@@ -280,7 +280,7 @@ export default function App() {
           <div className="md:col-span-2">
             <div className="font-serif text-3xl tracking-wider font-medium mb-6 text-sienna-50">Sienna.</div>
             <p className="text-sienna-100/60 font-light max-w-sm mb-8 leading-relaxed">
-              Refinamento contempor\u00e2neo e cuidado aut\u00eantico para revelar a sua melhor vers\u00e3o.
+              Refinamento contemporâneo e cuidado autêntico para revelar a sua melhor versão.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full border border-sienna-100/20 flex items-center justify-center hover:bg-sienna-100 hover:text-sienna-950 transition-colors">
@@ -297,7 +297,7 @@ export default function App() {
             <ul className="space-y-4 text-sienna-100/60 font-light">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>Rua Oscar Freire, 1234<br />Jardins, S\u00e3o Paulo - SP</span>
+                <span>Rua Oscar Freire, 1234<br />Jardins, São Paulo - SP</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="flex-shrink-0" />
@@ -315,14 +315,14 @@ export default function App() {
             <ul className="space-y-3 text-sienna-100/60 font-light">
               <li><a href="#about" className="hover:text-sienna-100 transition-colors">Sobre mim</a></li>
               <li><a href="#services" className="hover:text-sienna-100 transition-colors">Especialidades</a></li>
-              <li><a href="#method" className="hover:text-sienna-100 transition-colors">O M\u00e9todo</a></li>
-              <li><a href="#" className="hover:text-sienna-100 transition-colors">Pol\u00edtica de Privacidade</a></li>
+              <li><a href="#method" className="hover:text-sienna-100 transition-colors">O Método</a></li>
+              <li><a href="#" className="hover:text-sienna-100 transition-colors">Política de Privacidade</a></li>
             </ul>
           </div>
         </div>
 
         <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-sienna-100/10 text-center md:text-left text-sm text-sienna-100/40 font-light flex flex-col md:flex-row justify-between items-center">
-          <p>\u00a9 {new Date().getFullYear()} Sienna. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Sienna. Todos os direitos reservados.</p>
           <p className="mt-2 md:mt-0">Criado por vexxo.digital</p>
         </div>
       </footer>
